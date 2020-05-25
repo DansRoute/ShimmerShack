@@ -1,0 +1,129 @@
+.background
+{
+    
+    background-color: #ede1cd;
+    
+}
+
+/*.navbar
+{
+    
+    direction: rtl;
+    
+}*/
+
+/*.nav-container-alignment#
+{
+    
+    margin: auto;
+    
+}*/
+
+.title-cover
+{
+    position: absolute;
+    font-family: 'Pacifico', 'cursive';
+    display: inline-block;
+    background: rgb(246,191,159);
+    background: linear-gradient(0deg, rgba(246,191,159,1) 20%, rgba(219,138,222,1) 100%);
+    /*font-size:   calc(14px + (170 - 14) * ((50vw - 250px) / (1920 - 300)));
+    line-height: calc(1.3em + (1.5 - 1.2) * ((50vw - 250px)/(1920 - 300)));*/
+   /* font-stretch: ultra-expanded;*/
+    width: 100%;
+    font-size: 14vw;
+    text-align: center;
+    top:50%;
+
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+    
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+
+.Discover
+{
+    position: absolute  ;
+    font-family: 'Pacifico', 'cursive';
+    text-align: center;
+    bottom:10%;
+    width:100%;
+    font-size: 5vh;
+    background: rgb(246,191,159);
+    background: linear-gradient(0deg, rgba(246,191,159,1) 20%, rgba(219,138,222,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    
+}
+
+.Discover_Button
+{
+    position: fixed;
+    font-family: 'Pacifico', 'cursive';
+    text-align: center;
+    bottom: 5%;
+    width: 100%;
+    
+}
+
+#Expand-More
+{
+    position: relative;
+    background: rgb(246,191,159);
+    background: linear-gradient(0deg, rgba(246,191,159,1) 20%, rgba(219,138,222,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    bottom:10%;
+    text-align: center;
+}
+
+.btn
+{
+    
+    border:none;
+    cursor:pointer;
+}
